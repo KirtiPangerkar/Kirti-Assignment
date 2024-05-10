@@ -1,0 +1,729 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    align-items: center;
+    color: black;
+    scroll-behavior: smooth;
+}
+
+.topbar {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+    position: relative;
+
+}
+
+.ticon {
+    width: 2vw;
+    margin: 0px 0px 0px 6px;
+}
+
+.mainlogo img {
+    width: 180px;
+    margin: 0px 0px 0px 20px;
+}
+
+.logo2 img {
+    width: 70px;
+}
+
+.smo {
+    display: grid;
+}
+
+.smo a {
+    text-decoration: none;
+    font-size: 1vw;
+    color: black;
+}
+
+.smo a:last-child {
+    font-size: 1.3vw;
+    font-weight: 600;
+}
+
+.tbard {
+    margin: 0px 10px 0px 0px;
+}
+
+.tbard button {
+    background: transparent;
+    color: #000;
+    border: none;
+}
+
+.tbard button ul li a span {
+    font-size: 0.5vw;
+}
+
+@media(max-width:800px) {
+    .smo {
+        display: none;
+    }
+
+    .ticon {
+        display: none;
+    }
+}
+
+@media(max-width:430px) {
+    .logo2 {
+        display: none;
+    }
+}
+
+/* topbar end */
+
+/*navbar start*/
+.hnavbar1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+
+    background-color: #00b8ff;
+
+}
+
+.hnavbar1 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2vw;
+}
+
+.hnavbar1 a:hover {
+    color: #000000;
+}
+
+.hnavbar2 a:hover {
+    color: #000000;
+}
+
+.serchbox {
+    height: 4vw;
+    font-size: 1.3vw;
+    background-color: #0095ff;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+
+}
+
+.serchbox::placeholder {
+    color: #fff;
+    font-family: "Tajawal", sans-serif;
+
+
+}
+
+.menu {
+    font-weight: 900;
+    font-size: 40px;
+    cursor: pointer;
+    display: none;
+    border: none;
+    background: transparent;
+    padding: 0vw 1vw 0vw 0vw;
+}
+
+#check {
+    display: none;
+}
+
+.hnavbar2 {
+    background: rgba(0, 0, 0, 0.4);
+    display: none;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    float: right;
+    font-family: "Lexend Deca", sans-serif;
+
+}
+
+.hnavbar2 a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 60px 15px 45px;
+    font-size: 13px;
+}
+
+
+@media(max-width:800px) {
+    .hnavbar1 a {
+        display: none;
+    }
+
+    .hnavbar1 {
+        justify-content: space-between;
+    }
+
+    .serchbox {
+        height: 8vw;
+        font-size: 2vw;
+    }
+
+
+
+    .menu {
+
+        display: block;
+        color: #ffffff;
+        border-radius: 10px;
+    }
+}
+
+/*navbar end*/
+
+/* front view start*/
+
+.frontveiw {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/icons/ftbg3.png');
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.ft-left {
+    margin: 0px 0px 0px 100px;
+}
+
+.flink {
+    margin: 0px 0px 10px 0px;
+}
+
+.flink a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 100;
+}
+
+.flink i {
+    color: red;
+}
+
+.ftext {
+    margin: 0px 0px 10px 0px;
+}
+
+.ftext h1 {
+    color: #fff;
+    font-size: 35px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+
+}
+
+.ftext p {
+    color: #fff;
+    font-size: 13px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 100;
+    width: 400px;
+    text-align: left;
+}
+
+.ftbtn a {
+
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    padding: 6px 16px 6px 16px;
+    background-color: #0095ff;
+
+}
+
+.ftinimg {
+    width: 480px;
+    /* border-radius: 173px; */
+    height: 313px;
+    /* border: 4px solid #fff; */
+    overflow: hidden;
+}
+
+.ftinimg img {
+    width: 492px;
+    border-radius: 231px 0px 0px 250px;
+    height: 420px;
+    margin: -60px 0px 0px;
+    border: 11px solid rgb(0, 48, 103);
+}
+
+@media(max-width:800px) {
+    .ft-left {
+        margin: 0px 0px 0px 30px;
+    }
+}
+
+@media(max-width:430px) {
+    .ft-left {
+        margin: 55px 0px 55px 20px;
+    }
+
+    .ftinimg {
+        display: none;
+    }
+
+    .flink a {
+        font-size: 2.8vw;
+    }
+
+    .ftext h1 {
+
+        font-size: 8vw;
+    }
+
+    .ftext p {
+
+        font-size: 2.8vw;
+    }
+
+    .ftbtn a {
+        font-size: 2.8vw;
+    }
+
+}
+
+/* end of front view*/
+.hdlinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 15px 0px 0px 0px;
+}
+
+.hdlinks a {
+    color: #0a0a0a;
+    text-decoration: none;
+    font-size: 1.2vw;
+    font-weight: 600;
+    padding: 0px 0px 5px 0px;
+    transition: 0.4s ease;
+}
+
+.hdlinks a:hover {
+    border-bottom: 2px solid #0095ff;
+
+
+}
+
+@media(max-width:800px) {
+    .hdlinks {
+        display: none;
+    }
+
+}
+
+/* end of home direct links*/
+
+.tret-overv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4vw 0vw 4vw 0vw;
+    width: 100%;
+}
+
+.hrline {
+    margin: 0vw 0vw 0vw 8vw;
+    text-decoration: dotted;
+    color: #0095ff;
+    width: 80%;
+    height: 12px;
+}
+
+.toleft {
+    width: 40%;
+}
+
+.toleft h3 {
+    font-size: 3vw;
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+}
+
+.toleft p {
+    font-size: 1.3vw;
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+}
+
+.toright {
+    width: 40%;
+
+}
+
+.toright img {
+    width: 36vw;
+}
+
+.eft-slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2vw 0vw 4vw 0vw;
+}
+
+.eps1 {
+    border: 1px solid;
+}
+
+.eps1 img {
+    width: 20vw;
+}
+
+@media(max-width:800px) {
+    .toleft h3 {
+        font-size: 3.2vw;
+    }
+
+    .toleft p {
+        font-size: 1.5vw;
+    }
+
+    .toright img {
+        width: 40vw;
+    }
+}
+
+@media(max-width:430px) {
+
+    .tret-overv {
+
+        flex-direction: column;
+    }
+
+    .toleft {
+        width: 70%;
+    }
+
+    .toright {
+        width: 70%;
+    }
+
+    .toleft h3 {
+        font-size: 6.2vw;
+    }
+
+    .toleft p {
+        font-size: 3.5vw;
+    }
+
+    .toright img {
+        width: 66vw;
+    }
+}
+
+/*TREATMENT OVERVIEW END*/
+
+
+.epaptp {
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%;
+}
+
+.leftepaptp {
+    width: 60%;
+}
+
+.leftepaptp hr {
+    color: #0095ff;
+    height: 2px;
+}
+
+
+
+.eft h3 {
+    font-size: 2.5vw;
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+}
+
+.eft p {
+    font-size: 1.3vw;
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+}
+
+.eft ul li {
+    font-size: 1.2vw;
+}
+
+.rightepaptp {
+    width: 25%;
+    overflow: hidden;
+}
+
+.reptpform {
+    border-radius: 5px;
+    padding: 2vw 0vw 0vw 2vw;
+    margin: 1vw 0vw 0vw 1vw;
+    height: 38vw;
+    width: 21vw;
+    box-shadow: 1px 0px 5px 0px;
+}
+
+.reptpform h3 {
+    font-size: 2.3vw;
+    color: #0095ff;
+}
+
+.reptpform p {
+    font-size: 0.9vw;
+
+}
+
+.reptpform form {
+    width: 20vw;
+}
+
+.rightepaptp form label {
+    font-size: 1.3vw;
+}
+
+.rightepaptp form input {
+    font-size: 1.3vw;
+}
+
+.rightepaptp form textarea {
+    width: 16vw;
+    font-size: 1.3vw;
+}
+
+.rightepaptp form button {
+    padding: 0.5vw 5.7vw 0.5vw 5.7vw;
+    text-align: center;
+    color: #fff;
+    background-color: #0095ff;
+    border: none;
+}
+
+@media(max-width:800px) {
+    .rightepaptp {
+        display: none;
+    }
+}
+
+/* doctors start */
+
+.hdoctors {
+    width: 100%;
+    text-align: center;
+    background: rgb(228, 237, 240);
+    padding: 5vw;
+}
+
+.hdoctors h3 {
+    font-size: 2vw;
+    color: red;
+    margin-bottom: 5px;
+}
+
+.hdoctors h2 span {
+    color: #00b8ff;
+}
+
+.hdoctors h2 {
+    font-size: 2.2vw;
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+}
+
+.tods {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.hdoc1 {
+    background-color: #fff;
+    padding: 1vw;
+}
+
+.hdoc1 img {
+    width: 17vw;
+}
+
+.hdoc1 h3 {
+    margin: 1vw 0vw 0vw 0vw;
+    font-size: 1.3vw;
+    color: red;
+}
+
+.hdoc1 h4 {
+    font-size: 1.2vw;
+    color: rgb(15, 15, 15);
+}
+
+.hdoc1 h5 {
+    font-size: 1vw;
+    color: rgb(109, 107, 107);
+
+}
+
+/*hhospital start*/
+
+.hhospitals {
+    width: 100%;
+    text-align: center;
+
+    padding: 5vw;
+}
+
+.hhospitals h3 {
+    font-size: 2vw;
+    color: red;
+    margin-bottom: 5px;
+}
+
+.hhospitals h2 span {
+    color: #00b8ff;
+}
+
+.hhospitals h6 span {
+    color: #ff0000;
+}
+
+.hhospitals h2 {
+    font-size: 2.2vw;
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+}
+
+.thos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2vw 0vw 4vw 0vw;
+
+}
+
+.hhos1 {
+    background-color: #fff;
+    border: 1px solid red;
+    border-radius: 5px;
+
+}
+
+.hhos1 img {
+    width: 17vw;
+    margin-bottom: 1vw;
+}
+
+
+
+.hhos1 h4 {
+    font-size: 1.2vw;
+    color: rgb(15, 15, 15);
+}
+
+.hhos1 h5 {
+    font-size: 1vw;
+    color: rgb(109, 107, 107);
+
+}
+
+/* get in touch start*/
+
+.getinttouch {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #00b8ff;
+    padding: 4vw 0vw 4vw 0vw;
+}
+
+.getinttouch h6 {
+    font-size: 1vw;
+    color: #fff;
+
+}
+
+.getinttouch h2 {
+    font-size: 3vw;
+    color: #fff;
+
+}
+
+.btnwno {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btnwno a {
+    text-decoration: none;
+    padding: 5px 12px 5px 12px;
+    background-color: #0066ff;
+    color: #fff;
+    font-size: 1.2vw;
+    margin: 0px 10px 0px 0px;
+}
+
+.btnwno h5 {
+    color: #fff;
+    font-size: 1.2vw;
+    letter-spacing: 1px;
+}
+
+.footer2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer2 img {
+    width: 100%;
+}
+
+.lastfooter {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #0095ff;
+    height: 70px;
+}
+
+.lastfooter h6 {
+    font-size: 1vw;
+    color: #fff;
+    margin: 0px 555px 0px 15px;
+}
+
+.lastfooter h5 {
+    font-size: 1vw;
+    color: #fff;
+    margin: 0px 15px 0px 15px;
+}
+
+.lastfooter h4 {
+    font-size: 1vw;
+    color: #fff;
+    margin: 0px 15px 0px 15px;
+}

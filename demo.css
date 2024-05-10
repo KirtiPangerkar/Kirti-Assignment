@@ -1,0 +1,33 @@
+/* Owl Carousel Styles */
+.owl-carousel {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 10px;
+}
+
+.owl-carousel .item {
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+
+.owl-carousel .item h4 {
+    margin: 0;
+    padding: 10px;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .owl-carousel .item {
+        flex: 0 0 auto;
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 400px) {
+    .owl-carousel .item {
+        flex: 0 0 auto;
+        margin-right: 2px;
+    }
+}
